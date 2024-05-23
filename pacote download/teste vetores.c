@@ -11,6 +11,7 @@ int main()
         {
             totpar+=1;
         }
+        printf("Valor par na posicao %d\n",i);
     }
     printf("\nO total de pares foi: %d",totpar);
     return 0;
