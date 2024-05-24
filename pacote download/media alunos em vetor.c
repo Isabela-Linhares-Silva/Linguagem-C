@@ -17,7 +17,7 @@ int main()
     }
     for(i=1;i<5;i++)
     {
-        printf("%s %.2f",aluno[i], m[i]);
+        printf("%s %.2f\n",aluno[i], m[i]);
 
     }
     return 0;
