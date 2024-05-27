@@ -3,7 +3,7 @@
 int main()
 {
     int i,j;
-    float nota[3]={0},media,soma;
+    float nota[3]={0},media=0,soma=0;
     char gaba[5],resp[5],aluno[3][100];
     printf("----------------------------------\n");
     printf("   PASSO 1- Cadastro Gabarito\n");
@@ -21,6 +21,7 @@ int main()
         printf("-----------------\n");
         printf("Nome: ");
         scanf("%s",&aluno[j]);
+
         printf("RESPOSTAS DADAS\n");
         for(i=1;i<6;i++)
         {
@@ -28,18 +29,18 @@ int main()
             printf("Questao %d: ",i);
             scanf("%c",&resp[i]);
         }
-
-    }
-    for(i=1;i<6;i++)
+         for(i=1;i<6;i++)
         {
             if (resp[i] == gaba[i])
             {
                 nota[j]+=1;
             }
         }
-        printf("nota do aluno %s: %.2f\n",aluno[j],nota[j]);
-    soma += nota[j];
+         printf("Nota do aluno %s: %.2f\n",aluno[j],nota[j]*2);
+         soma+= nota[j]*2;
+    }
+
     media = soma/3;
-    printf("A media da tuma foi: %.2f",media);
+    printf("\nA media da tuma foi: %.2f",media);
     return 0;
 }
