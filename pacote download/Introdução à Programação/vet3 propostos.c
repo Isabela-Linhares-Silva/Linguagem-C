@@ -17,6 +17,7 @@ int main ()
     do {
         printf("Digite o codigo do cliente: ");
         scanf("%d",&cod_cliente);
+        if
         printf("Digite o codigo do produto: ");
         scanf("%d",&cod_produto);
         printf("Digite a quantidade: ");
