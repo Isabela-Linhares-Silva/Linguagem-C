@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
-//#define tot 5
+
 int main()
 {
-    int  matricula[25],i,j,cont=0;
+    int  i,j,cont=0;
     int log[15],lp[10];
     printf("Informe as matriculas dos alunos matriculados em Logica: ");
     for (i=0;i<15;i++)
@@ -26,8 +26,5 @@ int main()
            }
        }
     }
-
-
-
     return 0;
 }
