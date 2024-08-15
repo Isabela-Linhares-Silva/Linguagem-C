@@ -42,11 +42,11 @@ int main ()
     printf("\n----------Relatorio comissoes----------\n");
     for(int i=0;i<nv;i++)
     {
-            printf("Vendedor %s tem R$%.2f de comissao a receber",nomes[i],valor_comissao[i]);
+            printf("Vendedor %s tem R$%.2f de comissao a receber\n",nomes[i],valor_comissao[i]);
     }
     printf("O total das vendas de todos os vendedores foi: %d\n",tot_vendas);
-    printf("O maior valor a receber foi de R$%.2f e o %s receberá\n",maior_valor,nome_maior);
-    printf("O menor valor a receber foi de R$%.2f e o %s o receberá",menor_valor,nome_menor);
+    printf("O maior valor a receber foi de R$%.2f e o %s recebera\n",maior_valor,nome_maior);
+    printf("O menor valor a receber foi de R$%.2f e o %s o recebera",menor_valor,nome_menor);
 
     return 0;
 }
