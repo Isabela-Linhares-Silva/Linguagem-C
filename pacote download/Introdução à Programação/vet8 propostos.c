@@ -32,10 +32,5 @@ int main ()
            printf("\nO aluno %s precisa tirar %.2f para passar.",alunos[i],nota[i]);
         }
     }
-
-
-
-
-
     return 0;
 }
