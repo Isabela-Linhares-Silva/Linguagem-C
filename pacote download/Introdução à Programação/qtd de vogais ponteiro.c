@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <strings.h>
 void cont_vogais(char *p)
 {
     int cont=0, tam=strlen(p);
