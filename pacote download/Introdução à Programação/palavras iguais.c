@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<string.h>
 void compara(char *p1,char *p2)
 {
     int tam1=strlen(p1),tam2=strlen(p2),cont=1;
