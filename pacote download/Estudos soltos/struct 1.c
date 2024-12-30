@@ -7,7 +7,7 @@ int main()
         char nome[50];
         int matricula;
         float nota;
-    };// definição da struct
+    };// definicaoo da struct
     struct ficha_aluno aluno;
     printf("CADASTRO\n");
     printf("Nome do aluno: ");
